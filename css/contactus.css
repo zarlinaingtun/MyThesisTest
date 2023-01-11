@@ -1,0 +1,10 @@
+/* Start Contact Section */
+.contacts{
+    /* height: 100vh; */
+    background:linear-gradient(rgb(246, 178, 191),rgb(244, 202, 202));   
+}
+.bgwhites{
+    background: white;
+    margin:0;
+}
+/* End Contact Section */

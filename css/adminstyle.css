@@ -1,0 +1,102 @@
+/* Start Header Section */
+body{
+    margin:0;
+}
+header{
+    height:100vh;
+    background-image: linear-gradient(
+        rgba(0,0,0,0.3),
+        rgba(53, 52, 52, 0.4)
+    ),url("../assets/background/back8.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    position: relative;
+    
+}
+/* start navbar section */
+.navbar{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6));
+    padding:20px 20px;
+}
+.navmenus{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7));
+    margin:0;
+    padding:1px 20px;
+}
+.menuitems{
+    color:#eee;
+    letter-spacing: 1px;
+    font-size: 14px;
+
+    transition: color 0.5s;
+}
+.menuitems:hover{
+    color:pink;
+}
+.actives{
+    color:rgb(246, 125, 145);
+}
+.bolds{
+    font-weight: bolder;
+}
+.lines1,.lines2,.lines3{
+    width:23px;
+    height: 3px;
+    margin:5px;
+
+    transition: all 0.5s;
+}
+.changes .lines1{
+    transform: rotate(-45deg) translate(-6px,6px);
+}
+.changes .lines2{
+    opacity: 0;
+}
+.changes .lines3{
+    transform: rotate(45deg) translate(-6px,-6px);
+}
+/* end navbar section */
+/* start banner */
+.italics{
+    font-style: italic;
+}
+.bgpinks{
+    background-color: rgb(250, 119, 141);
+}
+.banners{
+   
+    width:80%;
+
+    position: absolute;
+    top:50%;
+    left:50%;
+
+    transform: translate(-50%,-50%);
+}
+.bannerheaders{
+    animation-name: bnani;
+    animation-duration: 3s;
+
+}
+.bannerpharagraphs{
+    text-align: justify;
+    animation-name: bnani;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+    animation-fill-mode: backwards;
+
+}
+@keyframes bnani{
+    0%{
+        transform: translate(-100%);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0%);
+        opacity: 1;
+    }
+}
+/* end banner */
+/* End Header Section */

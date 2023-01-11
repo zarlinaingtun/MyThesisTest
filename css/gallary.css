@@ -1,0 +1,40 @@
+.gallerys{
+    color:blue;
+}
+
+.cats_images img {
+    width:290px;
+    height:250px;
+    background-color: rgb(252, 152, 169);
+    
+}
+.cats_detail_images img {
+    width:400px;
+    height:400px;
+    background-color: rgb(252, 152, 169);
+}
+.font_sizes{
+    font-size: 18px;
+}
+.mycards{
+    box-shadow:5px 5px 5px rgb(207, 185, 196);
+}
+.text_shadows{
+    /* color: rgb(253, 118, 208); */
+    /* color:rgb(90, 87, 87); */
+    
+    font-weight: bold;
+}
+.pinks{
+    color:rgb(250, 119, 141);
+}
+.grays{
+    color:rgb(90, 87, 87);
+}
+.heights{
+    height: 47px;
+    color:rgb(250, 119, 141);
+}
+.origin-heights{
+    height: 46px;
+}

@@ -1,0 +1,50 @@
+.successlogins{
+    background:linear-gradient(rgb(120, 242, 126),rgb(120, 246, 86));
+
+    width: 100%;
+    height: 100%;
+    padding: 30px 20px;
+    
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(209, 206, 206);
+}
+.successs{
+    color:white;
+    background:rgb(33, 112, 2);
+
+    
+    padding: 30px 20px;
+    
+    
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(184, 231, 166); 
+}
+.fails{
+    color:white;
+    background:rgb(255, 103, 131);
+
+    
+    padding: 30px 20px;
+    
+    
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(207, 136, 148); 
+}
+
+.loginani{
+    animation-name: myani;
+    animation-duration: 1.5s;
+
+}
+
+@keyframes myani{
+    0%{
+       
+        transform: translateY(-100%);
+
+    }
+    100%{
+       
+        transform: translateY(0);
+    }
+}
